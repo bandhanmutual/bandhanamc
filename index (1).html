@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bandhan Mutual Fund</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body{
+      height:100vh;
+      background: linear-gradient(135deg, #8b0000, #d62828);
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      position:relative;
+    }
+
+    /* Top Left Logo */
+    .top-logo{
+      position:absolute;
+      top:20px;
+      left:20px;
+    }
+
+    .top-logo img{
+      width:140px;
+      height:auto;
+    }
+
+    .container{
+      width:350px;
+      background:#fff;
+      padding:40px 30px;
+      border-radius:18px;
+      box-shadow:0 10px 25px rgba(0,0,0,0.3);
+      text-align:center;
+    }
+
+    .logo-text{
+      font-size:32px;
+      font-weight:bold;
+      color:#8b0000;
+      margin-bottom:25px;
+      line-height:1.2;
+    }
+
+    .logo-text span{
+      color:#d62828;
+    }
+
+    .login-title{
+      font-size:22px;
+      margin-bottom:20px;
+      color:#333;
+    }
+
+    .input-box{
+      width:100%;
+      margin-bottom:15px;
+    }
+
+    .input-box input{
+      width:100%;
+      padding:14px;
+      border:1px solid #ccc;
+      border-radius:10px;
+      font-size:15px;
+      outline:none;
+      transition:0.3s;
+    }
+
+    .input-box input:focus{
+      border-color:#d62828;
+      box-shadow:0 0 5px rgba(214,40,40,0.4);
+    }
+
+    .login-btn{
+      width:100%;
+      padding:14px;
+      background:#8b0000;
+      color:white;
+      border:none;
+      border-radius:10px;
+      font-size:16px;
+      cursor:pointer;
+      transition:0.3s;
+      margin-top:10px;
+    }
+
+    .login-btn:hover{
+      background:#a30000;
+    }
+
+    .invest-btn{
+      width:100%;
+      padding:14px;
+      background:#d62828;
+      color:white;
+      border:none;
+      border-radius:10px;
+      font-size:16px;
+      cursor:pointer;
+      transition:0.3s;
+      margin-top:18px;
+      font-weight:bold;
+    }
+
+    .invest-btn:hover{
+      background:#b71c1c;
+    }
+
+    .footer{
+      margin-top:18px;
+      font-size:13px;
+      color:#777;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Left Logo -->
+  <div class="top-logo">
+    <!-- Replace logo.png with your hosted image path -->
+    <img src=" Screenshot 2026-05-23 190733.png" alt="Bandhan Logo">
+  </div>
+
+  <div class="container">
+
+    <div class="logo-text">
+      Bandhan <span>Mutual Fund</span>
+    </div>
+
+    <div class="login-title">
+      Investor Login
+    </div>
+
+    <div class="input-box">
+      <input type="text" placeholder="User ID" />
+    </div>
+
+    <div class="input-box">
+      <input type="password" placeholder="Password" />
+    </div>
+
+    <button class="login-btn">Login</button>
+
+    <button class="invest-btn">
+      Invest Now
+    </button>
+
+    <div class="footer">
+      Secure Investment Platform
+    </div>
+
+  </div>
+
+</body>
+</html>
